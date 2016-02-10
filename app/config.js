@@ -5,7 +5,7 @@
 module.exports = {
 
   // Service name used in header. Eg: 'Renew your passport'
-  serviceName: "Service name goes here",
+  serviceName: "Industrial Injuries Disablement benefit",
 
   // Default port that prototype runs on
   port: '3001',
