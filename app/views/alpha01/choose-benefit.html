@@ -1,0 +1,60 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  Indusrial Injuries Disablement Benefit
+{% endblock %}
+
+{% block content %}
+<main id="content" role="main">
+
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <form action="/" method="post" class="form">
+
+        <a href="before-you-start" class="example-back-link">Back</a>
+
+        <h1 class="heading-xlarge">
+          Which component do you you want to claim?
+        </h1>
+
+        <p>
+          Choose from the options to claim a componenet fo Industrial Injuries Disablement Benefit 
+        </p>
+
+        
+
+        <h2 class="heading-large">
+        Industrial Injuries Disablement Benefit components;
+        </h2>
+
+        <div class="form-group">
+          <fieldset>
+
+            <legend class="visuallyhidden">
+              Which part of the Industrial Injuries Disabalment Benefit do you want to claim?
+            </legend>
+
+            <label for="radio-part-2" class="block-label">
+              <input id="radio-part-2" type="radio" name="housing-act" value="Part 2">
+              <span class="heading-small">Accident</span>
+              
+            </label>
+
+            <label for="radio-part-3" class="block-label">
+              <input id="radio-part-3" type="radio" name="housing-act" value="Part 3">
+              <span class="heading-small">Disease</span>
+            </label>
+
+          </fieldset>
+        </div>
+    <div class="form-group">
+      <input type="submit" class="button" value="Continue">
+    </div>
+      </form>
+  
+    </div>
+  </div>
+</main>
+{% endblock %}
